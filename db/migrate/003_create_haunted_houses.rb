@@ -9,8 +9,9 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.2]
       hh.string :theme 
       hh.string :price 
       hh.boolean :family_friendly
-      hh.timedate :opening_date
-      hh.timedate :
+      hh.datetime :opening_date
+      hh.datetime :closing_date
+      hh.string :long_description
   end 
   
 end 
