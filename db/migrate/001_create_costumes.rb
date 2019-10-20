@@ -8,6 +8,16 @@
 # In this change method, create columns with the correct names and 
 # value types according to the spec
 
-class Costumes 
+class CreateCostumes 
+  
+  def change 
+    create_table :costumes do |costume|
+      costumes.
+      costumes.
+      costumes.
+      costumes.
+      costumes.
+      costumes.
+  end 
   
 end 
